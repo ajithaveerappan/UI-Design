@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .outerwrapper {
+        height: 100vh;
+        width: 70%;
+        background-color: rgb(242, 222, 197);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .wrapper {
+        height: 100%;
+        width: 48rem;
+        background-color: white;
+        border-radius: 0.625rem;
+        padding: 1.875rem;
+        box-sizing: border-box;
+      }
+      .title {
+        color: #fc8219ed;
+        text-align: center;
+        position: relative;
+        bottom: 1.875rem;
+      }
+      .line {
+        height: 0.063rem;
+        background-color: seashell;
+        width: 100%;
+      }
+
+      .name-container {
+        height: 1.563rem;
+        width: 1.563rem;
+        background-color: lightgrey;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        float: right;
+        position: relative;
+        bottom: 4.375rem;
+        right: 2.5rem;
+      }
+      .name {
+        color: rgb(12, 95, 146);
+        font-size: 0.625rem;
+      }
+      .para {
+        float: right;
+        position: relative;
+        bottom: 4.688rem;
+        right: 3.125rem;
+        font-size: 0.625rem;
+        color: grey;
+      }
+      .contentboxwrapper {
+        width: 44.375rem;
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+      }
+      .contentbox {
+        height: 12.5rem;
+        width: 45.625rem;
+        border: 0.063rem solid rgb(232, 148, 118);
+
+        border-radius: 0.625rem;
+      }
+      .content-title {
+        text-align: center;
+      }
+      .content {
+        text-align: center;
+      }
+      .msg-title {
+        color: #fc8219ed;
+        text-align: center;
+      }
+      .headingbox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.313rem;
+      }
+      .containers {
+        display: flex;
+        flex-direction: row;
+        gap: 1.563rem;
+      }
+      .container-one {
+        height: 21.25rem;
+        width: 21.875rem;
+        border: 0.063rem solid gray;
+        border-radius: 0.313rem;
+      }
+      .container-two {
+        height: 21.25rem;
+        width: 21.875rem;
+        border: 0.063rem solid rgb(232, 148, 118);
+        border-radius: 0.313rem;
+      }
+      .container-three {
+        height: 21.25rem;
+        width: 21.875rem;
+        border: 0.063rem solid gray;
+        border-radius: 0.313rem;
+      }
+      .containerone-content {
+        color: gray;
+        text-align: center;
+        padding: 0.125rem;
+
+        box-sizing: border-box;
+      }
+      .btn {
+        border: 0.063rem solid orangered;
+        color: orangered;
+        background-color: rgb(242, 222, 197);
+        width: 90%;
+        border-radius: 1.25rem;
+        padding: 0.625rem;
+        margin-top: 1.25rem;
+      }
+      .containerone-final {
+        color: rgb(232, 148, 118);
+        margin-top: 1.563rem;
+      }
+      .containertwo-content {
+        color: gray;
+        text-align: center;
+        padding: 0.125rem;
+
+        box-sizing: border-box;
+      }
+      .containertwo-final {
+        color: rgb(232, 148, 118);
+        margin-top: 1.563rem;
+      }
+      .containertwo-btn {
+        border: 0.063rem solid orangered;
+        color: white;
+        background-color: orangered;
+        width: 90%;
+        border-radius: 1.25rem;
+        padding: 0.625rem;
+        margin-top: 1.25rem;
+      }
+      .image {
+        position: relative;
+        top: 0.313rem;
+      }
+      .btn-img {
+        color: red;
+        position: relative;
+        bottom: 5rem;
+      }
+      .dropdown-img {
+        height: 0.438rem;
+        width: 0.438rem;
+        float: right;
+        position: relative;
+        bottom: 3.875rem;
+        left: 3.75rem;
+        color: gray;
+      }
+      .reload-img {
+        height: 0.6 38rem;
+        width: 0.638rem;
+        float: right;
+        position: relative;
+        bottom: 4.085rem;
+        right: 4.975rem;
+
+        color: gray;
+      }
+      @media screen {
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outerwrapper">
+      <div class="wrapper">
+        <div class="heading">
+          <h4 class="title">WOLIGO ></h4>
+          <div class="name-container">
+            <h5 class="name">JS</h5>
+          </div>
+          <p class="para">Jevin Smith</p>
+          <img src="dropdown.png" class="dropdown-img" />
+          <img src="reload.png" class="reload-img" />
+          <div class="line"></div>
+        </div>
+        <div class="contentboxwrapper">
+          <div class="contentbox">
+            <h4 class="content-title">Health Insurance</h4>
+            <p class="content">
+              We are evaluating your health insurance coverage<br />options from
+              our database of hundreds of policies
+            </p>
+            <p class="msg-title">
+              <img src="orange.png" class="image" />
+              Check your inbox for a link to<br />your list of quotes.
+            </p>
+          </div>
+        </div>
+        <div class="headingbox">
+          <h4 class="headingbox-content">
+            Recommended options for Disability Insurance
+          </h4>
+        </div>
+        <div class="containers">
+          <div class="container-one">
+            <div class="containerone-content">
+              <h5 class="containerone-title">Option 1</h5>
+              <h2 class="containerone-number">17</h2>
+              <p class="containerone-content">Montly Benefit amount:$1,221</p>
+              <p class="years">Benefit Period:5years</p>
+              <p class="days">Elimination Period:30days</p>
+              <button class="btn">Choose plan</button>
+              <p class="containerone-final">Customize</p>
+            </div>
+          </div>
+          <div class="container-two">
+            <div class="containertwo-content">
+              <h5 class="containertwo-title">Option 2</h5>
+              <h2 class="containertwo-number">28</h2>
+              <p class="containertwo-content">Montly Benefit amount:$1,221</p>
+              <p class="years">Benefit Period:5years</p>
+              <p class="days">Elimination Period:30days</p>
+              <button class="containertwo-btn">Selected</button>
+
+              <p class="containertwo-final">Customize</p>
+            </div>
+          </div>
+          <div class="container-three">
+            <div class="containerone-content">
+              <h5 class="containerone-title">Option 3</h5>
+              <h2 class="containerone-number">95</h2>
+              <p class="containerone-content">Montly Benefit amount:$1,221</p>
+              <p class="years">Benefit Period:5years</p>
+              <p class="days">Elimination Period:30days</p>
+              <button class="btn">Choose plan</button>
+              <p class="containerone-final">Customize</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
